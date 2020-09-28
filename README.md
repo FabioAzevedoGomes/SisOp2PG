@@ -6,7 +6,7 @@ Implementation of a chat application using Java websockets
 * ChatServer.openSession(Session new_session) 
 * ChatServer.closeSession(Session closing_session)
 * ChatServer.transmitMessage(String message)
-### Running
+### Running:
 On parent directory (PG1_Websockets/) execute:
 ```sh
 mvn jetty:run

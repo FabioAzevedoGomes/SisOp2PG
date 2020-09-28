@@ -8,7 +8,6 @@ import javax.websocket.OnOpen;                // On open method
 import java.util.logging.Logger;              // Log session info
 import java.util.*;                           // List for sessions
 import java.io.IOException;                   // Exceptions
-import java.lang.Exception;                   // Exceptions
 
 @ServerEndpoint("/chat") // Specify displayed path to clients
 public class ChatServer{
@@ -25,7 +24,7 @@ public class ChatServer{
 
     /**
      * Receives connections from peers using the websocket protocol
-     * Saves the Session oject into the session set for other methods to access
+     * Saves the Session object into the session set for other methods to access
      * @param new_session The new session being created and should be kept track of
      */
     @OnOpen

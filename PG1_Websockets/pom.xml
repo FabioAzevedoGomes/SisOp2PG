@@ -31,8 +31,6 @@
           <source>${javaVersion}</source>
           <target>${javaVersion}</target>
           <compilerVersion>${javaVersion}</compilerVersion>
-          <fork>true</fork>
-          <executable>/usr/bin/javac</executable>
         </configuration>
       </plugin>
       <plugin>
